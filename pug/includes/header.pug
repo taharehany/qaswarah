@@ -1,0 +1,63 @@
+//header
+header 
+    //navbar desktop
+    nav(class="navbar main-nav navbar-expand-lg")
+        div(class="container")
+            a(class="navbar-brand", href="index.html") 
+                img(src="images/white-logo.png", class="white" alt="")
+                img(src="images/logo.png", class="colored" alt="")
+            button(class="navbar-toggler", type="button", data-bs-toggle="offcanvas", data-bs-target="#side_menu", aria-controls="side_menu", aria-expanded="false", aria-label="Toggle navigation")
+                div(class="hamburger-menu")
+                    span
+                    span
+                    span
+            div(class="collapse navbar-collapse" id="navbarNav")
+                ul(class="navbar-nav")
+                    li(class="nav-item")
+                        a(class="nav-link active", aria-current="page", href="index.html") Home
+                    li(class="nav-item")
+                        a(class="nav-link", href="#") about
+                    li(class="nav-item")
+                        a(class="nav-link", href="#") services
+                    li(class="nav-item")
+                        a(class="nav-link", href="#") clients
+                    li(class="nav-item")
+                        a(class="nav-link", href="#") contact
+                    li(class="nav-item dropdown")
+                        a(class="nav-link dropdown-toggle", id="navbarDropdownMenuLink1" href="#", role="button", data-bs-toggle="dropdown", aria-expanded="false")
+                            | language
+                        ul(class="dropdown-menu", aria-labelledby="navbarDropdownMenuLink1")
+                            li
+                                a(class="dropdown-item", href="arabic/index.html") arabic
+                            li
+                                a(class="dropdown-item", href="#!") English
+    //navbar desktop
+
+    //side menu in mobile only
+    div(class="offcanvas offcanvas-start", id="side_menu" data-bs-scroll="true", tabindex="-1", aria-labelledby="side_menu_label")
+        div(class="offcanvas-header")
+            button(type="button", class="btn-close btn-close-dark", data-bs-dismiss="offcanvas", data-bs-target="#side_menu", aria-controls="side_menu" aria-label="Close")
+        div(class="offcanvas-body")
+            div(class="navbar")
+                div(class="collapsed navbar-collapse" id="navbarNavSide")
+                    ul(class="navbar-nav")
+                        li(class="nav-item")
+                            a(class="nav-link active", aria-current="page", href="index.html") Home
+                        li(class="nav-item")
+                            a(class="nav-link", href="#") about
+                        li(class="nav-item")
+                            a(class="nav-link", href="#") services
+                        li(class="nav-item")
+                            a(class="nav-link", href="#") clients
+                        li(class="nav-item")
+                            a(class="nav-link", href="#") contact
+                        li(class="nav-item dropdown")
+                            a(class="nav-link dropdown-toggle", id="navbarDropdownMenuLink1" href="#", role="button", data-bs-toggle="dropdown", aria-expanded="false")
+                                | language
+                            ul(class="dropdown-menu", aria-labelledby="navbarDropdownMenuLink1")
+                                li
+                                    a(class="dropdown-item", href="arabic/index.html") arabic
+                                li
+                                    a(class="dropdown-item", href="#!") English
+    //side menu in mobile only
+//header
