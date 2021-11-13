@@ -82,6 +82,9 @@
         box-shadow: 0 4px 10px 0 rgb(115 115 115 / 5%), 0 7px 10px -5px rgb(126 126 126 / 5%);
         background-color: #34508a;
       }
+      header .navbar .navbar-collapse {
+        justify-content: flex-start;
+      }
       /* header .navbar .colored {
           display: block;
       }
