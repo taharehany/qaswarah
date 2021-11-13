@@ -72,6 +72,12 @@
          text-align: center;
          height: auto;
       }
+      header .navbar .navbar-nav .nav-link {
+          color: #222;
+      }
+      header .navbar {
+        box-shadow: 0 4px 10px 0 rgb(115 115 115 / 5%), 0 7px 10px -5px rgb(126 126 126 / 5%);
+      }
 
       .main {
          height: 50vh;
@@ -86,12 +92,12 @@
          direction: rtl
       }
 
-      footer {
+      /* footer {
          position: absolute;
          height: auto;
          width: 100%;
          bottom: 0;
-      }
+      } */
 
       </style>
       <!-- /menubar -->
