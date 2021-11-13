@@ -73,11 +73,21 @@
          height: auto;
       }
       header .navbar .navbar-nav .nav-link {
-          color: #222;
+          /* color: #222; */
+      }
+      header .navbar .navbar-nav .nav-link:hover {
+          /* color: #000; */
       }
       header .navbar {
         box-shadow: 0 4px 10px 0 rgb(115 115 115 / 5%), 0 7px 10px -5px rgb(126 126 126 / 5%);
+        background-color: #34508a;
       }
+      /* header .navbar .colored {
+          display: block;
+      }
+      header .navbar .white {
+          display: none;
+      } */
 
       .main {
          height: 50vh;
@@ -89,7 +99,8 @@
       h3 {
          line-height: 2;
          text-align: center;
-         direction: rtl
+         direction: rtl;
+         padding-top: 50px;
       }
 
       /* footer {
