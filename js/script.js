@@ -12,40 +12,6 @@ $(document).ready(function () {
    }
   });
 
-  // toast notification
-  let toastTrigger = $('.fav-btn');
-  let toastAdding = $('#addFavToast');
-  let toastRemoving = $('#removeFavToast');
-  toastTrigger.on('click', function () {
-    $(this).toggleClass("added").find("i").toggleClass("bi-heart bi-heart-fill")
-
-    if (toastTrigger && $(this).hasClass("added")) {
-      let toast = new bootstrap.Toast(toastAdding)
-      toast.show();
-    } else {
-        let toast = new bootstrap.Toast(toastRemoving)
-        toast.show();
-    }
-  });
-
-  //validate form
-  (function () {
-    let forms = document.querySelectorAll('.needs-validation')
-
-    //Loop over them and prevent submission
-    Array.prototype.slice.call(forms)
-      .forEach(function (form) {
-        form.addEventListener('submit', function (event) {
-          if (!form.checkValidity()) {
-            event.preventDefault()
-            event.stopPropagation()
-          }
-
-          form.classList.add('was-validated')
-        }, false)
-      })
-  })();
-
   //main slider owl
   $('.main-slider-carousel').owlCarousel({
     center: true,

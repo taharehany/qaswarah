@@ -1,11 +1,11 @@
 /** rtl styles **/
-html[dir=rtl] {
-    // @import "plugins_css/bootstrap.rtl.min";
-    
+html[dir=rtl] {    
     body {
         font-family: "Tajawal", sans-serif;
     }
-
+    ul {
+        padding: 0;
+    }
     a {
         color: initial;
         text-decoration: none;
@@ -68,6 +68,26 @@ html[dir=rtl] {
             }
         } 
     }
+
+    //hero
+    section.main-slider {
+        background: url(../images/slider/hero-ar.jpg);
+        background-size: cover;
+        background-position: right
+    }
+    //hero
+
+    //services
+    section.services {
+        .services-box {
+            .text {
+                .details {
+                    min-height: 160px;
+                }
+            }
+        }
+    }
+    //services
 
     .form-control.is-invalid,
     .was-validated .form-control:invalid {
