@@ -195,6 +195,7 @@ header {
 
 		.navbar-nav {
 			padding-inline-start: 100px;
+
 			.nav-item {
 				margin: 0 0.7rem;
 				line-height: 3;
@@ -400,6 +401,10 @@ header {
 			}
 		}
 	}
+
+	.offcanvas-start {
+		width: 270px;
+	}
 }
 
 //header
@@ -502,7 +507,7 @@ section.about {
 		margin-bottom: 30px;
 	}
 
-	.container {
+	.content {
 		padding: 70px 25px;
 		border: 2px solid $main_color;
 		@include borderRadius(15px);

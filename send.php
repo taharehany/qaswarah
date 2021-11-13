@@ -118,7 +118,7 @@
       <main class="main">
          <div class="container">
             <h3> <?php
-                    $email= "ryhanytaha@gmail.com";
+                    $email= "contact@qaswarahagency.com";
                     if (!empty($_POST)){
                         if(empty($_POST['name']) or empty($_POST['phone']) or empty($_POST['email']) or empty($_POST['message'])){
                             echo("تأكد من ملئ جميع الحقول!");
